@@ -1,20 +1,54 @@
-<<<<<<< HEAD
-# carousel_app
-=======
-# carousel_app
+# 🎬 Movie Carousel App
 
-A new Flutter project.
+A beautiful Flutter app that displays a carousel of popular movies with shimmer loading effects and "Watch Now" buttons that link directly to IMDb pages. The app supports light and dark themes and auto-adjusts based on the system setting.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Movie image carousel with title and CTA button.
+- Smooth page indicator for active slide tracking.
+- Shimmer loading effect for better UX.
+- Opens IMDb links via "Watch Now".
+- Adaptive Light & Dark theme based on system mode.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> origin/master
+## 📦 Packages Used
+
+| Package                 | Purpose                               |
+| ----------------------- | ------------------------------------- |
+| `carousel_slider`       | Horizontal movie carousel             |
+| `smooth_page_indicator` | Dots indicator for carousel           |
+| `shimmer`               | Skeleton loading effect               |
+| `url_launcher`          | Launch IMDb links in external browser |
+
+---
+
+## 🎨 Theme
+
+The app uses **Material 3** with dynamic color support:
+
+- Light Theme & Dark Theme handled using `ThemeMode.system`
+- Custom gradient AppBar title
+- Consistent color scheme using `ColorScheme.fromSeed`
+
+---
+
+## 📱 Screenshot
+
+| Home Screen                                   |
+| --------------------------------------------- |
+| ![Home Screen](assets/images/home_screen.jpg) |
+
+---
+
+## 👨‍💻 Developer
+
+**Made with ❤️ by Aditya Vishwakarma**
+
+---
+
+## 🔗 License
+
+This project is open-source and available for learning and improvement.
